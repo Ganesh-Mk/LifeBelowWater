@@ -16,7 +16,7 @@
     padding: 0vw 1vw;
 }
 .left {
-    border: 2px solid red;
+    /* border: 2px solid red; */
 
 }
 .left h1 {
@@ -27,7 +27,7 @@
 
 .right {
     margin-top: 2vw;
-    border: 2px solid black;
+    /* border: 2px solid black;  */
     /* margin: 2vw; */
 
 }
