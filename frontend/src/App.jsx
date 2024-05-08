@@ -1,19 +1,19 @@
-import { PrimeReactProvider } from 'primereact/api'
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
-
-import Entrance from './Components/Entrance'
+import { PrimeReactProvider } from "primereact/api";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Navbar from "./components/Navbar";
+import Entrance from "./pages/Entrance";
 
 function App() {
   return (
     <PrimeReactProvider>
       <Router>
-        {/* <Navbar /> */}
+        <Navbar />
         <Routes>
-          <Route path="/" element={<Entrance/>} />
+          <Route path="/" element={<Entrance />} />
         </Routes>
       </Router>
     </PrimeReactProvider>
-  )
+  );
 }
 
-export default App
+export default App;
