@@ -10,7 +10,7 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/" element={<Entrance />} />
-        </Routes>
+=        </Routes>
       </Router>
     </PrimeReactProvider>
   );

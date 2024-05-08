@@ -2,9 +2,8 @@ import React from "react";
 
 export function Home(props) {
   return (
-    <>
-      <h1>Hell</h1>
-      <h2>Hel</h2>
-    </>
+    <div>
+      <h1>Hello</h1>
+    </div>
   );
 }

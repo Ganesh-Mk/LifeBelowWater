@@ -3,10 +3,12 @@ import { Menubar } from "primereact/menubar";
 import { InputText } from "primereact/inputtext";
 import SignUp from "../pages/Signup";
 import Login from "../pages/Login";
+import { Link } from "react-router-dom";
 
 function Navbar() {
   const items = [
     {
+      
       label: "Home",
       icon: "pi pi-home",
       command: () => window.location.assign("/"), // Redirect to home
