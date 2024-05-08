@@ -22,6 +22,7 @@ function Login() {
     <div className="loginContainer">
       <div className="card flex justify-content-center">
         <Button
+        style={{height:'3vw', width:'8vw', marginBottom:'1vw'}}
           className="custom-button"
           label="Login"
           icon="pi pi-user"
@@ -74,6 +75,7 @@ function Login() {
               </div>
               <div className="flex align-items-center gap-2">
                 <Button
+                
                   label="Submit"
                   onClick={handleSubmit}
                   text

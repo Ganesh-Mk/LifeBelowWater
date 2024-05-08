@@ -27,6 +27,7 @@ function Signup() {
     <div className="signupContainer">
       <div className="card flex justify-content-center">
         <Button
+        style={{height:'3vw', width:'8vw'}}
           className="custom-button"
           label="Signup"
           icon="pi pi-user"

@@ -1,9 +1,6 @@
 import React from "react";
 import { Menubar } from "primereact/menubar";
 import { InputText } from "primereact/inputtext";
-import { Badge } from "primereact/badge";
-import { Avatar } from "primereact/avatar";
-import { Link } from "react-router-dom";
 import SignUp from "../pages/Signup";
 import Login from "../pages/Login";
 
