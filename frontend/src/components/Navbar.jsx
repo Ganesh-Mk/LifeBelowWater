@@ -11,12 +11,12 @@ function Navbar() {
       
       label: "Home",
       icon: "pi pi-home",
-      command: () => window.location.assign("/"), // Redirect to home
+      command: () => window.location.assign("/home"), // Redirect to home
     },
     {
-      label: "Features",
+      label: "Community",
       icon: "pi pi-star",
-      command: () => window.location.assign("/features"), // Redirect to features
+      command: () => window.location.assign("/community"), // Redirect to features
     },
     {
       label: "Projects",
